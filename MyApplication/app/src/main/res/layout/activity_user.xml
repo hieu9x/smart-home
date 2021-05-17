@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:background="@drawable/background_2"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".UserPassword.LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User"
+        android:textColor="@color/purple_700"
+        android:textStyle="italic"
+        android:textSize="35dp">
+    </TextView>
+    <ImageButton
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnSpeak"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/man"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/ChangePassword2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="ChangePassword"
+        android:textColor="@color/purple_700"
+        android:textSize="18dp"
+        android:textStyle="italic"></TextView>
+
+    <TextView
+        android:id="@+id/ForgotPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Forgot your password"
+        android:textColor="@color/purple_700"
+        android:textSize="20dp"
+        android:textStyle="italic"></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_rounded"
+            android:text="Logout"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:id="@+id/btnLogout">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string-array name="device">
+        <item>Light</item>
+        <item>TV</item>
+        <item>electric fan</item>
+        <item>electric stove</item>
+    </string-array>
+</resources>
